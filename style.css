@@ -4,16 +4,77 @@
 }
 
 body{
-    background-color: burlywood;
+    background-color: rgb(223, 190, 148);
 }
 
 main{
     background-color: aliceblue;
     width: 500px;
     margin: auto;
+    height: auto ;
     padding: 10px;
     box-shadow: 3px 3px 5px black;
 }
-h1{
+h1,h2{
     text-align: center;
+    color: rgb(31, 23, 23);
+    font-size: 18px;
+}
+
+p{
+    text-align: justify;
+}
+
+p > span{
+    font-weight: bold;
+}
+h2{
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+}
+
+div.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+iframe {
+  display: block;    
+  margin: 0 auto;    
+  margin-bottom: 5%;
+}
+
+#visitar{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+#visitar p {
+    font-size: 20px;
+}
+
+a.link{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.link p{
+    font-size: 20px;
 }
